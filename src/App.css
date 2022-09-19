@@ -57,18 +57,21 @@ h1 {
 
 .deco {
   position: absolute;
-  font-size: 52vh;
+  font-size: 34vh;
+  height: 100vh;
   color: black;
   overflow-y: auto;
   opacity: 0.03;
   pointer-events: stroke;
   transition: opacity 2s;
+  line-height: 34vh;
 }
 
 .deco:hover {
   pointer-events: none;
   opacity: 0;
   transition: opacity 2s;
+
 }
 
 .openQM {
