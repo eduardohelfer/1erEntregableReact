@@ -14,8 +14,10 @@ const QuoteBox = ({ randomQuote, randomColor, getRandomAll }) => {
 
   return (
     <article style={colorObj} className='card'>
-      <p className='card__quote'><span className='openQM'>‟</span>{randomQuote.quote}”</p>
-
+      <div className='quotation'>
+        <div className='openQM'>“</div>
+        <quote className='card__quote'>{randomQuote.quote}”</quote>
+      </div>
       <h1 className='card__author'>{randomQuote.author}</h1>
       <button
         className='card__btn'

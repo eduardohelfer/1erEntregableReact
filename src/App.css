@@ -22,6 +22,7 @@ h1 {
   padding: 20px;
   border-radius: 20px;
   box-shadow: 5px 5px 15px #0009;
+  display: block;
 }
 
 .card__quote {
@@ -71,5 +72,13 @@ h1 {
 }
 
 .openQM {
-  font-size: 70px;
+  font-size: 100px;
+  margin-right: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quotation {
+  display: inline-flex;
+  align-items: center;
+
 }
